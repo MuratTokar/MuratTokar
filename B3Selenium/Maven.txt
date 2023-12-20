@@ -1,0 +1,35 @@
+
+# Selenium otomasyon Tooldur
+* Selenium WebDriver
+* Selenium IDE
+* Selenium Grid=farkli makinalrda testlerimizi run etmek icin kullanilir
+
+PROS (iyi tarafi)
+-open source/ lisans problemi yoktur
+-Dil bagimsiz.Java,Python,
+-Paralel ,cros browser:iki test case yi pespese degilde iki chrome acip birlikte test etmektir
+-comunity support
+
+CONS(kotu tarafi)
+-raporlama destegi yok/All-in-one degildir
+-resim ve görüntü islemleri yapamaz
+-mobil ve desktop testi yapamaz(Appium)
+
+
+
+
+
+
+GET METOTLARI
+WebDriver driver=new ChromeDriver;
+
+1-driver.get("Url");--->yazdigimiz URL ye gider
+-driver.get("https://www.amazon.com");
+
+2-driver.getTitle();---> icinde oldugu sayfanin basligini döndürür
+-driver.getTitle(); bu kodu ya yazdirirz yada bir Variable ye atariz
+
+3-driver.getCurrentUrl();---> Icinde oldugu sayfanin  URL sini döndürür.
+-driver.getCurrentUrl();Ya yazdirirz yada bir variable ye atariz
+
+4-
